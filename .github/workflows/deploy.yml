@@ -5,12 +5,6 @@ on:
       - master
 
   # https://github.com/actions/setup-java
-  # runs-on: ubuntu-latest 무조건 최신 코드 다운받음.
-  # actions/checkout@v3 중요한 이유 -> 해당 버전에 가야 내가 원하는 버전을 설치할 수 있어서
-  # apt intall = actions/setup-java@v4
-  # distribution: temurin 어떤 벤더사를 통해 설치할지.
-  # cache: gradle 생략해야됨
-  # echo = name: Pemission
   build:
     runs-on: ubuntu-latest
     steps:
