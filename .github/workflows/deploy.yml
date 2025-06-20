@@ -4,7 +4,8 @@ on:
     branches:
       - master
 
-  # https://github.com/actions/setup-java
+# https://github.com/actions/setup-java
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
